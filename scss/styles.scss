@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+$very-dark-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
+$dark-grayish-magenta: hsl(303, 10%, 53%);
+$light-grayish-magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+$font: 'League Spartan', sans-serif;
+
+body {
+  background-color: white;
+  font-family: $font;
+  h1 {
+    opacity: 0;
+    margin-block: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 2rem;
+    margin-block-start: 3rem;
+
+    h2 {
+      color: $very-dark-magenta;
+      text-align: center;
+      font-size: 2.5rem;
+    }
+    p {
+      color: $dark-grayish-magenta;
+      text-align: center;
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+  }
+
+  .rate-list-container {
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      font-weight: 400;
+      li .rate-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        background-color: $light-grayish-magenta;
+        width: 320px;
+        padding-block: 1rem;
+        padding-inline: 4rem;
+        border-radius: 20px;
+        color: $very-dark-magenta;
+      }
+    }
+  }
+}
+
+.opinion-list-container {
+  ul {
+    list-style: none;
+    padding: 0;
+    li .card1-container {
+      margin-block-start: 3rem;
+      background-color: $very-dark-magenta;
+      color: $white;
+      margin-inline: 1rem;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    li .card2-container {
+      margin-block-start: 3rem;
+      background-color: $very-dark-magenta;
+      color: $white;
+      margin-inline: 1rem;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    li .card3-container {
+      margin-block-start: 3rem;
+      background-color: $very-dark-magenta;
+      color: $white;
+      margin-inline: 1rem;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+  }
+}
+
+.card1-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .colton-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.card2-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .irene-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.card3-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .anne-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+@media (width > 375px) {
+  .page1-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    // margin-inline-end: 38rem;
+    margin-block-start: 2rem;
+    h2 {
+      text-align: start;
+    }
+    p {
+      text-align: start;
+    }
+  }
+  .page1-responsive {
+    display: flex;
+  }
+
+  body .rate-list-container {
+    ul {
+      margin-block-start: 5rem;
+      margin-inline-end: 8rem;
+      li {
+        .rate-container {
+          display: flex;
+          flex-direction: row;
+          padding: 0;
+          justify-content: flex-start;
+          padding-inline: 6px;
+          padding-block: 1rem;
+        }
+      }
+    }
+  }
+}

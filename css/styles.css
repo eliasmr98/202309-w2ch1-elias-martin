@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "League Spartan", sans-serif;
+}
+body h1 {
+  opacity: 0;
+  margin-block: 0;
+}
+body header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 2rem;
+  margin-block-start: 3rem;
+}
+body header h2 {
+  color: hsl(300, 43%, 22%);
+  text-align: center;
+  font-size: 2.5rem;
+}
+body header p {
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+body .rate-list-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 400;
+}
+body .rate-list-container ul li .rate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: hsl(300, 24%, 96%);
+  width: 320px;
+  padding-block: 1rem;
+  padding-inline: 4rem;
+  border-radius: 20px;
+  color: hsl(300, 43%, 22%);
+}
+
+.opinion-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+.opinion-list-container ul li .card1-container {
+  margin-block-start: 3rem;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  margin-inline: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.opinion-list-container ul li .card2-container {
+  margin-block-start: 3rem;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  margin-inline: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.opinion-list-container ul li .card3-container {
+  margin-block-start: 3rem;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  margin-inline: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.card1-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card1-image-and-text-container .colton-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.card1-image-and-text-container .colton-text p {
+  margin: 0;
+}
+
+.card2-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card2-image-and-text-container .irene-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.card2-image-and-text-container .irene-text p {
+  margin: 0;
+}
+
+.card3-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card3-image-and-text-container .anne-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.card3-image-and-text-container .anne-text p {
+  margin: 0;
+}
+
+@media (width > 375px) {
+  .page1-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-block-start: 2rem;
+  }
+  .page1-header h2 {
+    text-align: start;
+  }
+  .page1-header p {
+    text-align: start;
+  }
+  .page1-responsive {
+    display: flex;
+  }
+  body .rate-list-container ul {
+    margin-block-start: 5rem;
+    margin-inline-end: 8rem;
+  }
+  body .rate-list-container ul li .rate-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: flex-start;
+    padding-inline: 6px;
+    padding-block: 1rem;
+  }
+}
