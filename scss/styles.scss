@@ -9,9 +9,6 @@ $light-grayish-magenta: hsl(300, 24%, 96%);
 $white: hsl(0, 0%, 100%);
 $font: 'League Spartan', sans-serif;
 
-// - Mobile: 375px
-// - Desktop: 1440px
-
 body {
   background-color: white;
   font-family: $font;
@@ -60,6 +57,79 @@ body {
         border-radius: 20px;
         color: $very-dark-magenta;
       }
+    }
+  }
+}
+
+.opinion-list-container {
+  ul {
+    list-style: none;
+    padding: 0;
+    li .card1-container {
+      margin-block-start: 3rem;
+      background-color: $very-dark-magenta;
+      color: $white;
+      margin-inline: 1rem;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    li .card2-container {
+      margin-block-start: 3rem;
+      background-color: $very-dark-magenta;
+      color: $white;
+      margin-inline: 1rem;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    li .card3-container {
+      margin-block-start: 3rem;
+      background-color: $very-dark-magenta;
+      color: $white;
+      margin-inline: 1rem;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+  }
+}
+
+.card1-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .colton-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.card2-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .irene-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.card3-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  .anne-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    p {
+      margin: 0;
     }
   }
 }

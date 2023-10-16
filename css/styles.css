@@ -4,7 +4,7 @@
 
 body {
   background-color: white;
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 body h1 {
   opacity: 0;
@@ -48,6 +48,77 @@ body .rate-list-container ul li .rate-container {
   padding-inline: 4rem;
   border-radius: 20px;
   color: hsl(300, 43%, 22%);
+}
+
+.opinion-list-container ul {
+  list-style: none;
+  padding: 0;
+}
+.opinion-list-container ul li .card1-container {
+  margin-block-start: 3rem;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  margin-inline: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.opinion-list-container ul li .card2-container {
+  margin-block-start: 3rem;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  margin-inline: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.opinion-list-container ul li .card3-container {
+  margin-block-start: 3rem;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  margin-inline: 1rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.card1-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card1-image-and-text-container .colton-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.card1-image-and-text-container .colton-text p {
+  margin: 0;
+}
+
+.card2-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card2-image-and-text-container .irene-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.card2-image-and-text-container .irene-text p {
+  margin: 0;
+}
+
+.card3-image-and-text-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card3-image-and-text-container .anne-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.card3-image-and-text-container .anne-text p {
+  margin: 0;
 }
 
 @media (width > 375px) {
