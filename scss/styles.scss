@@ -103,6 +103,9 @@ body {
     p {
       margin: 0;
     }
+    .color-text {
+      color: $soft-pink;
+    }
   }
 }
 
@@ -117,6 +120,9 @@ body {
     p {
       margin: 0;
     }
+    .color-text {
+      color: $soft-pink;
+    }
   }
 }
 
@@ -130,6 +136,9 @@ body {
     gap: 0;
     p {
       margin: 0;
+    }
+    .color-text {
+      color: $soft-pink;
     }
   }
 }
@@ -167,5 +176,8 @@ body {
         }
       }
     }
+  }
+  ul {
+    display: flex;
   }
 }

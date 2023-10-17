@@ -92,6 +92,9 @@ body .rate-list-container ul li .rate-container {
 .card1-image-and-text-container .colton-text p {
   margin: 0;
 }
+.card1-image-and-text-container .colton-text .color-text {
+  color: hsl(333, 80%, 67%);
+}
 
 .card2-image-and-text-container {
   display: flex;
@@ -106,6 +109,9 @@ body .rate-list-container ul li .rate-container {
 .card2-image-and-text-container .irene-text p {
   margin: 0;
 }
+.card2-image-and-text-container .irene-text .color-text {
+  color: hsl(333, 80%, 67%);
+}
 
 .card3-image-and-text-container {
   display: flex;
@@ -119,6 +125,9 @@ body .rate-list-container ul li .rate-container {
 }
 .card3-image-and-text-container .anne-text p {
   margin: 0;
+}
+.card3-image-and-text-container .anne-text .color-text {
+  color: hsl(333, 80%, 67%);
 }
 
 @media (width > 375px) {
@@ -148,5 +157,8 @@ body .rate-list-container ul li .rate-container {
     justify-content: flex-start;
     padding-inline: 6px;
     padding-block: 1rem;
+  }
+  ul {
+    display: flex;
   }
 }
